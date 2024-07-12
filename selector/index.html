@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> css selector</title>
+    
+    <style> 
+/* Element selector */
+
+        div { background-color: rgb(170, 0, 255);}
+        /* class seclector */
+        
+        .red {
+            background-color: rgb(217, 34, 43);}
+/* id selector seclector */
+        #green {
+            background-color: rgb(35, 236, 13);
+            
+        }
+        /* child selector seclector */
+        div > p {color: rgb(214, 19, 80);
+        background-color: rgb(64, 4, 6);}
+        /* desendent  selector seclector */
+        div p {color: rgb(214, 19, 80);
+            background-color: rgb(64, 4, 6);}
+            /* universal  selector seclector */
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            /* pseudo   selector seclector */
+            a:visited {
+                color: chartreuse;
+            }
+            a:active{ background-color: blueviolet;}
+            a:hover{ background-color: blueviolet;}
+</style>
+</head>
+<body>
+    <div class="red">
+        I am div
+        <p>i a, para inside div</p>
+    </div>
+    <div >
+        I am second div
+    </div>
+    <div id="green">
+        I am third div
+        <article>
+        <p>i a, para inside div</p>
+    </article>
+    </div>
+    <a href="https://notutkarsh1.github.io/MY-WEB-PAGE/">go to my website  </a>
+    
+</body>
+</html> 
